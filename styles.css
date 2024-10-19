@@ -3,6 +3,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Roboto", sans-serif;
 }
 
 .social-container {
@@ -58,6 +59,13 @@ body {
   border: none;
   border-radius: 5px;
   text-decoration: none;
+}
+
+.social-link:hover,
+.social-link:focus {
+  cursor: pointer;
+  background-color: chartreuse;
+  color: black;
 }
 /* 
 .attribution {
